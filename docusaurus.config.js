@@ -1,15 +1,15 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Yumechi - VDS Pages',
+  tagline: 'Happy Hacking!',
+  url: 'https://vds.yumechi.top',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'eternal-flame-AD', // Usually your GitHub org/user name.
+  projectName: 'vds-yumechi-top', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Yumechi',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -18,12 +18,12 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Documents',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/eternal-flame-AD/vds-yumechi-top',
           label: 'GitHub',
           position: 'right',
         },
@@ -33,67 +33,54 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Quick Links',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Research Pages',
+              to: 'research-pages/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Lab Notes',
+              to: "lab-notes/"
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'UTBox Folder',
+              href: 'https://utexas.app.box.com/folder/121369283675',
             },
           ],
         },
         {
           title: 'More',
           items: [
-            {
+            /*{
               label: 'Blog',
               to: 'blog',
-            },
+            },*/
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/eternal-flame-AD',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Yumechi & VDS Stream. Built with Docusaurus.`,
     },
   },
   presets: [
     [
       '@docusaurus/preset-classic',
       {
-        docs: {
+        "docs": {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/eternal-flame-AD/vds-yumechi-top/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/eternal-flame-AD/vds-yumechi-top/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -101,4 +88,5 @@ module.exports = {
       },
     ],
   ],
+  scripts: ["https://use.fontawesome.com/releases/v5.14.0/js/all.js"],
 };
