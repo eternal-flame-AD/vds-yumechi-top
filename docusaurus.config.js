@@ -36,14 +36,6 @@ module.exports = {
           title: 'Quick Links',
           items: [
             {
-              label: 'Research Pages',
-              to: 'research-pages/',
-            },
-            {
-              label: 'Lab Notes',
-              to: "lab-notes/"
-            },
-            {
               label: 'UTBox Folder',
               href: 'https://utexas.app.box.com/folder/121369283675',
             },
