@@ -1,6 +1,5 @@
 module.exports = {
   title: 'Yumechi - VDS Pages',
-  tagline: 'Happy Hacking!',
   url: 'https://vds.yumechi.top',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -36,9 +35,13 @@ module.exports = {
           title: 'Quick Links',
           items: [
             {
-              label: 'UTBox Folder',
+              label: 'Yumechi\'s UTBox Folder',
               href: 'https://utexas.app.box.com/folder/121369283675',
             },
+            {
+              label: "VDS Stream Google Site",
+              href: 'https://sites.google.com/site/vdsstream/',
+            }
           ],
         },
         {

@@ -3,9 +3,11 @@ module.exports = {
     "index",
     {
       "Research Pages": [
+        "research-pages/index",
         "research-pages/20209-2-vpipe-pcr"
       ],
       "Lab Notes": [
+        "lab-notes/index",
         {
           "Virtual Lab": [
             {
