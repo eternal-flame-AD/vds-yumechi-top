@@ -19,8 +19,6 @@ Keep primer on ice bucket during experiment. Store in <Measure unit="degC">-20</
 
 ### Stock Solution
 
-<Prepared color="#f3713a"/>
-
 1. Spin down for <Measure unit="s">~5</Measure> in bubble spinner.
 1. Dilute the primer to <Measure unit="um">100</Measure> with TE or Tris.
 

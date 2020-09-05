@@ -41,7 +41,7 @@ This objective of this lab is to clone the accepting vector (backbone portion) o
     
     Vector-PIPE PCR was used to create the Accepting Vector for the gene insert. Its primer pair match the 3' downstream ends of the cloning site with a sticky end. So the PCR product would be the plasmid backbone with the cloning site replaces with sticky ends so our gene inserts can be later added.
     
-    1. <Timestamp color="#25c2a0">18:08</Timestamp> Prepare 3 V-PIPE PCR mixtures. 
+    1. <Timestamp color="#25c2a0">18:08</Timestamp> Prepare 3 V-PIPE PCR mixtures (<Measure unit="ul">25</Measure> per tube). 
     
         See [Lab Note Protocol](/docs/lab-notes/wetlab/pcr/pipe-cloning#Mixture) for recipe.
         :::note
@@ -50,3 +50,30 @@ This objective of this lab is to clone the accepting vector (backbone portion) o
     2. <Timestamp color="#25c2a0">19:48</Timestamp> Run V-PIPE cycle. 
     
         See [Lab Note Protocol](/docs/lab-notes/wetlab/pcr/pipe-cloning#v-pipe-cycle) for details.
+
+
+## Results
+
+Not yet available. Confirm DNA concentration with nanodrop?
+
+## Discussions
+
+### Sources of Error
+
+#### Preparing Phase
+
+The biggest source of error would be external DNA contamination. Preventive measures would include:
+- Wearing gloves and eye goggles to prevent keratin contamination.
+- Capping the PCR tube when talking or doing other procedures.
+
+Another source of error would be failing to pipette one of the substances to the PCR mixture. In my past experience in preparing PCR mixture, my supervisor told me since the volume were so small, it is important to visually see that their is liquid being sucked up and the liquid is no longer there after taking the pipette out of the PCR tube.
+
+#### Running Phase
+
+Using non-hot-start polymerase may cause the reaction to start even before the sample was put into the thermal cycler. This may cause some issues such as the existence of primer dimers and other undesired produces. 
+
+There might be some overshoot/overshoot in temperature due to the thermal mass between the PCR mixture and the block on the PCR cycler. Though some PCR cycler can estimate this difference and adjust the block temperature accordingly, there may still be error between what what temperature was programmed on the thermal cycler and what the temperature of the mixture really was.
+
+### Next Steps
+
+After the PCR cycle, the first step would be to confirm whether the desired product was produced. A read on nanodrop can determine the concentration of DNA and RNA/protein contamination (A260/A280). Afterwards, a DNA gel can be run to confirm and purify product of the expected size.
