@@ -42,3 +42,33 @@ export const Measure = ({children, unit}) => {
 
   return (<span>{children} {subUnits.join("/")}</span>);
 }
+
+export const TopCaption = ({children, text}) => (
+  <span>
+    <p style={{
+      textAlign: "center",
+      fontStyle: "italic",
+      fontWeight: "bold",
+    }} >
+      { text }
+    </p>
+    { children }
+  </span>
+)
+
+export const BottomCaption = ({children, text}) => (
+  <span>
+  { children }
+    <p style={{
+      textAlign: "center",
+      fontStyle: "italic",
+    }} >
+      { text }
+    </p>
+  </span>
+
+)
+
+export const ZincImg = ({id}) => <img src={`http://zinc.docking.org/substances/ZINC0000${id}.png`} height={200} width={200} style={{border: "2px solid"}} />
+
+export const SmileImg = ({smiles}) => <img src={"http://zinc.docking.org/apps/mol/draw.png?smiles=" + encodeURIComponent(smiles)} height={200} width={200} style={{border: "2px solid"}} />

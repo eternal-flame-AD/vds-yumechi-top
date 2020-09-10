@@ -4,7 +4,8 @@ module.exports = {
     {
       "Research Pages": [
         "research-pages/index",
-        "research-pages/20209-2-vpipe-pcr"
+        "research-pages/20209-2-vpipe-pcr",
+        "research-pages/20209-3-vs-phosphatase"
       ],
       "Lab Notes": [
         "lab-notes/index",
@@ -17,7 +18,7 @@ module.exports = {
               ],
               "Rosetta": [
                 "lab-notes/virtual/rosetta/mutate-single-residue",
-                "lab-notes/virtual/rosetta/thread-then-hibridize",
+                "lab-notes/virtual/rosetta/thread-then-hybridize",
               ]
             }
           ],

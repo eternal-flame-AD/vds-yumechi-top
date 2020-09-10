@@ -1,6 +1,6 @@
 ---
-id: thread-then-hibridize
-title: Thread and hibridize model from homologys
+id: thread-then-hybridize
+title: Thread and hybridize model from homologys
 ---
 
 ## Threading with RosettaCM
