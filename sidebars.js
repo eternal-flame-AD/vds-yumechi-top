@@ -12,6 +12,11 @@ module.exports = {
         {
           "Virtual Lab": [
             {
+              "PyMOL": [
+                "lab-notes/virtual/pymol/pymolrc"
+              ]
+            },
+            {
               "CSD-GOLD": [
                 "lab-notes/virtual/gold/convenient-scripts",
                 "lab-notes/virtual/gold/conformer-generation"
