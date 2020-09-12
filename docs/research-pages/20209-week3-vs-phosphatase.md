@@ -1,7 +1,7 @@
 ---
 id: 20209-3-vs-phosphatase
 title: Fall20-W3 VS Phosphatase
-tags: ["PCR", "Dilution"]
+tags: ["Virtual Screening", "GOLD"]
 ---
 
 
@@ -343,12 +343,15 @@ CID1766712pos2|<SmileImg smiles="C[C@@H]1CCC[C@]2(C1=C[C@H]3[C@@H](C2)OC(=O)[C@H
 
 </details>
 
-# Discussion
+## Discussion
 
 This looks like a pretty typical dock with no good candidates found. This is expected because only 1000 candidates were screened. 
+
+## Next Steps
+
+This experiment did not yield interesting results for further study.
 
 If I were asked to make more adjustments to improve results quality, I might consider the following:
 - Find more positive controls and include them in the control dock. The current 3 positive controls are not enough to draw a confident conclusion on the quality of the dock run.
 - Negative controls should have properties that resemble positive controls more. Consider using DUD(e) to generate negative controls.
 - Consider docking with a different fitness function. The positive RMSd-to-score correlation indicates that the current fitness function is not outputting stable results for this protein+ligand combination.
-
