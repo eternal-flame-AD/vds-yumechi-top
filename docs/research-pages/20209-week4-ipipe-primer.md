@@ -496,6 +496,10 @@ GTATCCACCTTTACTGTTATTTGACGATCGGG
 ```
 </details>
 
+Tm @ <Measure unit="mmol">2</Measure> Mg2+ was <Measure unit="degC">69.6</Measure> 
+and <Measure unit="degC">67.9</Measure>
+for forward and reverse primer respectively based on the IDT(R) OligoAnalyzer.
+
 <details><summary>
 FtFBA-pNIC-Bsa28 sequence+annotations in GenBank format. I-PIPE + V-PIPE Primer pairs annotated.
 </summary>
@@ -782,6 +786,12 @@ primer to make self-dimers have ddG better than <Measure unit="kcal/mol">-9</Mea
 of those are on the IDT wishlist with an `-opt` appended to the end of the name.
 
 I would definitely consider mutating the gBLOCKs sequence to make them more PCRable.
+
+### The Uncertainty of Tm
+
+Looks like there is not a very precise way to calculate the exact value of Tm, as it is
+affected by multiple environmental factors that are hard to be all accounted for. Maybe
+consider using a gradient PCR protocol if the initial PCR did not yield good results.
 
 ### Use of Bioinformatics tools
 
