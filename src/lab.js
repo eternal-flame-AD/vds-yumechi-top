@@ -58,7 +58,10 @@ export const TopCaption = ({children, text}) => (
 
 export const BottomCaption = ({children, text}) => (
   <span>
-  { children }
+    <div style={{textAlign: "center", marginRight: "5em", marginLeft: "5em"}}>
+      { children }
+    </div>
+
     <p style={{
       textAlign: "center",
       fontStyle: "italic",

@@ -83,5 +83,7 @@ module.exports = {
       },
     ],
   ],
-  scripts: ["https://use.fontawesome.com/releases/v5.14.0/js/all.js"],
+  scripts: [
+    "https://use.fontawesome.com/releases/v5.14.0/js/all.js",
+  ],
 };

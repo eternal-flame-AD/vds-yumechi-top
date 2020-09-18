@@ -6,7 +6,8 @@ module.exports = {
         "research-pages/index",
         "research-pages/20209-2-vpipe-pcr",
         "research-pages/20209-3-vs-phosphatase",
-        "research-pages/20209-3-oligo-optimize"
+        "research-pages/20209-3-oligo-optimize",
+        "research-pages/20209-4-ipipe-primer"
       ],
       "Lab Notes": [
         "lab-notes/index",
