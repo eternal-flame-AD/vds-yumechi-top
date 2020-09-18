@@ -366,7 +366,7 @@ ORIGIN
 Either copy and paste the sequence manually, but I find doing an In Sillico PCR is easier in UGENE and
 it copies all the annotations to the product automatically.
 
-<BottomCaption text="Fig. 2.a. Screenshot of UGENE In Sillico PCR input and output.">
+<BottomCaption text="Fig. 2.a. Screenshot of UGENE In Sillico V-PIPE PCR input and output.">
     <img src="/img/20209-4-ipipe-primer-pNIC28-Bsa4-VPIPE-InSPCR.jpg" />
 </BottomCaption>
 
@@ -764,6 +764,12 @@ ORIGIN
 //
 ```
 </details>
+
+9. Verify I-PIPE PCR product with In Sillico PCR.
+
+<BottomCaption text="Fig. 6.a. Screenshot of UGENE In Sillico I-PIPE PCR input and output.">
+    <img src="/img/20209-4-construct-FtFBA-pNIC28-Bsa4-IPIPE-InsPCR.jpg" />
+</BottomCaption>
 
 ## Discussions
 
