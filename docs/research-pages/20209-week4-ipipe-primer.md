@@ -811,6 +811,8 @@ time checking for errors on a plain text editor while I can have much more confi
 I don't know how the stream will handle the workflow, but if I were to decide what happens next, I would:
 - Order the gBLOCKs and I-PIPE primers with the corresponding mutations to fix self-dimer problem.
 - Perform the I-PIPE PCR on gBLOCKs to amplify gene insert. Quality control on PCR.
+  - Verify by gel: EcoRI, ~200bp fragment.
+  - Verify by sequencing.
 - Anneal the gene insert to accepting vector by PCRing the amplified gene insert and the accepting vector. Quality control to confirm that recombinant plasmid were made.
 - Remove non-combinant plasmids by either digesting SacB gene or perform negative selection on SacB after transformation.
 - Transformation into _E. coli K12_. 
